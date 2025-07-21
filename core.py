@@ -13,12 +13,20 @@ class solution():
         print(f"List after popping : {n}")
         for i in n :
             print (i)
+        i = 0
+        while i < len(n):
+           print(n[i])
+           i += 1
 
     def tuplee(self,n):
         try :
             n.append(2)
         except AttributeError :
             print("Tuples are immutable")
+        i = 0
+        while i < len(b):
+             print(b[i])
+             i += 1
 
     def setss(self,n):
         b=set(n)
@@ -32,6 +40,11 @@ class solution():
         print(f"Set after no duplicates : {b} ")
         for i in b :
             print (i)
+        s = list(b)  
+        i = 0
+        while i < len(s):
+             print(s[i])
+             i += 1
 
     def dicttt(self,key,value,key2):
         d = {"name": "Mani", "age": 25}
@@ -44,6 +57,11 @@ class solution():
             print(f"key : {key2} not found ")
         for key, value in d.items():
               print(key, ":", value)
+        keys = list(d.keys())
+        i = 0
+        while i < len(keys):
+            print(keys[i], ":", d[keys[i]])
+            i += 1
 
 
 a= solution()
