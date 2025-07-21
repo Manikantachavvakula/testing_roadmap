@@ -33,6 +33,18 @@ class solution():
         for i in b :
             print (i)
 
+    def dicttt(self,key,value,key2):
+        d = {"name": "Mani", "age": 25}
+        d[key] = value
+        print(f"Dictonary after ading given value with key : {d}")
+        if key2 in d :
+                d.pop(key2)  
+                print(f"Dictonary after deleting key : {d}")
+        else : 
+            print(f"key : {key2} not found ")
+        for key, value in d.items():
+              print(key, ":", value)
+
 
 a= solution()
 n = list(map(int,input("Enter list with space seperated : ").split()))
@@ -44,3 +56,8 @@ a.tuplee(b)
         
 f = list(map(int,input('Enter Set : ').split()))
 a.setss(f)
+
+key = input("Enter Key to add : ")
+value = input("Enter value to the key :")
+key2 = input('Enter key to remove : ')
+a.dicttt(key,value,key2)
