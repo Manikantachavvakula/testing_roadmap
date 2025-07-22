@@ -15,13 +15,6 @@ def writeee():
     with open("mani.txt","r") as f :
         print(f.read())
 
-def csvfor():
-    with open("details.csv") as f :
-        for line in f :
-            if age >= 20: 
-                print(f.read())
-
-
 
 def tryexcept():
        try : 
