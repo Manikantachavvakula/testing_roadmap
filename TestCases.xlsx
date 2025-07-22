@@ -1,0 +1,6 @@
+ID,Scenario,Steps,Expected,Status
+TC01,Register with valid data,"Open xyz.com → Register → Fill valid → Submit","Success",✅
+TC02,Register invalid email,"Open xyz.com → Register → Bad email → Submit","Error shown",❌
+TC03,Login valid,"Open xyz.com → Login → Correct creds → Submit","Profile loaded",✅
+TC04,Login wrong pass,"Open xyz.com → Login → Wrong pass → Submit","Error shown",✅
+TC05,Logout,"Profile → Click Logout","Back to login",✅

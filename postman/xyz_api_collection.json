@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "XYZ API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login API - Valid",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"username\": \"testuser\", \"password\": \"correctpass\" }"
+        },
+        "url": {
+          "raw": "https://xyz.com/api/login",
+          "protocol": "https",
+          "host": ["xyz","com"],
+          "path": ["api","login"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

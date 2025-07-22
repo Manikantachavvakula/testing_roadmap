@@ -1,0 +1,2 @@
+BugID,Title,Steps,Expected,Actual,Severity,Status
+BUG-01,Register allows invalid email,"Open Register, input bad email, submit","Should error","Registers successfully",High,Closed
