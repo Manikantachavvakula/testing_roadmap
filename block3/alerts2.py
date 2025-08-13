@@ -23,7 +23,7 @@ class way2automation():
             print(result)
             alert.accept()
             assert result == "I am an alert box!" , "Alert successfully not handled"
-            print("✅ Alert successfully handled!")
+            print("Alert successfully handled!")
         except TimeoutException :
             print("Time out")
 

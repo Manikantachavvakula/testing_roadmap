@@ -4,7 +4,7 @@ import time
 
 driver = webdriver.Chrome()
 
-URL = "https://practicetestautomation.com/practice-test-login/"
+URL = "https://www.youtube.com/results?search_query=python+selenium+crash+course"
 driver.get(URL)
 
 
